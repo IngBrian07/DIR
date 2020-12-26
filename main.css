@@ -1,0 +1,83 @@
+* { /*Restart styles*/
+    margin:0;
+    padding:0;
+}
+
+body{
+    background: #45230f;
+}
+
+/*HEADER*/
+.title h1{
+    padding: 40px 0 20px 0;
+    text-align:center;
+    font-size: 3 em;
+    color: #000000;
+}
+
+#Date{
+    text-align:right;
+    margin: 0 3%;
+    color: #000000;
+}
+
+/*Container*/
+.container{
+    background: #ffffff;
+    margin:3%;
+}
+
+/*Block 1 Index & Warning */
+.block1{
+    /* background: #955f31; */
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.block1 h2{
+    text-align:center;
+    margin:10px 0 15px;
+}
+
+
+/* left block with description */
+.titleIndustry{
+    grid-column:1/2;
+    text-align:center;
+    background: #955f31;
+    padding: 15px;
+    color:#ffffff;
+}
+
+.d_left{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    
+}
+
+#cer_box1{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+}
+
+
+/* Rigth block with image */
+.d_right{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+
+}
+
+#cer_box2{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+}
+
+.footer{
+    background: #955f31;
+}
+
+div:hover{ /*Verify if the grid works*/
+    border:1px solid #f1c40f;
+}
