@@ -4,7 +4,7 @@
 }
 
 body{
-    background: #45230f;
+    background: #252b31;
 }
 
 /*HEADER*/
@@ -23,7 +23,7 @@ body{
 
 /*Container*/
 .container{
-    background: #ffffff;
+    background: #f6fafb;
     margin:3%;
 }
 
@@ -45,9 +45,9 @@ body{
 .titleIndustry{
     grid-column:1/2;
     text-align:center;
-    background: #955f31;
+    background: #f8bd3d;
     padding: 15px;
-    color:#ffffff;
+    columns: #000000;;
 }
 
 .d_left{
@@ -75,9 +75,24 @@ body{
 }
 
 .footer{
-    background: #955f31;
+    background: #6c0503;
 }
+
+
+
+/*Styles of first block*/
+#in-index{
+    list-style: circle inside;
+    padding: 15px;
+}
+
+#text-notice{
+    padding: 15px;
+}
+
 
 div:hover{ /*Verify if the grid works*/
     border:1px solid #f1c40f;
 }
+
+
