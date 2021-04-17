@@ -90,6 +90,25 @@ body{
     padding: 15px;
 }
 
+/*Para box1*/
+.box1{
+    padding: 20px 35px 10px 35px;
+}
+
+/*To box2 image*/
+
+
+#tVision{
+    text-align:center;
+}
+
+#tVdate{
+    text-align:Right;
+}
+
+#text-Vision{
+    padding: 25px;
+}
 
 div:hover{ /*Verify if the grid works*/
     border:1px solid #f1c40f;
