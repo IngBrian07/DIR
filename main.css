@@ -42,7 +42,7 @@ body{
 
 
 /* left block with description */
-.titleIndustry{
+.titleSeccion{
     grid-column:1/2;
     text-align:center;
     background: #f8bd3d;
@@ -50,7 +50,7 @@ body{
     columns: #000000;;
 }
 
-.d_left{
+#d_left{
     display:grid;
     grid-template-columns:repeat(2,1fr);
     
@@ -75,7 +75,7 @@ body{
 }
 
 .footer{
-    background: #6c0503;
+    background: #f8bd3d;
 }
 
 
@@ -91,23 +91,31 @@ body{
 }
 
 /*Para box1*/
-.box1{
+#box1{
     padding: 20px 35px 10px 35px;
 }
 
 /*To box2 image*/
+.box2{
+    margin:auto;
+    padding: 40px 40px 40px 40px;
+}
 
 
-#tVision{
+#Subtitle{
     text-align:center;
 }
 
-#tVdate{
+#Stdate{
     text-align:Right;
 }
 
 #text-Vision{
     padding: 25px;
+}
+
+#figs{
+    margin:auto;
 }
 
 div:hover{ /*Verify if the grid works*/
